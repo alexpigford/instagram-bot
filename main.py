@@ -68,7 +68,7 @@ class InstagramBot():
 
         self.browser.get('https://www.instagram.com/' + self.username)
 
-bot = InstagramBot('USERNAME', 'PASSWORD', 'I just used Python and Selenium to change this bio!')
+bot = InstagramBot('USERNAME', 'PASSWORD', 'this bio was made with python and selenium. you can check out the code on my github below!')
 bot.signInAndClickAccount()
 bot.editAccount()
 print('bot finished')
